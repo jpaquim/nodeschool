@@ -8,18 +8,30 @@
     "async": "^2.5.0",
     "bl": "^1.2.1",
     "concat-stream": "^1.6.0",
+    "duplexer2": "^0.1.4",
+    "request": "^2.81.0",
+    "split": "^1.0.1",
+    "stream-combiner": "^0.2.2",
     "strftime": "^0.10.0",
+    "tar": "^3.1.9",
     "through2": "^2.0.3",
-    "through2-map": "^3.0.0"
-  },
-  "devDependencies": {
-    "learnyounode": "^3.5.10",
-    "scope-chains-closures": "^1.0.4",
-    "standard": "^10.0.2"
+    "through2-map": "^3.0.0",
+    "trumpet": "^1.7.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpaquim/nodeschool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jpaquim/nodeschool/issues"
+  },
+  "homepage": "https://github.com/jpaquim/nodeschool#readme",
+  "devDependencies": {
+    "websocket-stream": "^5.0.1"
+  }
 }
