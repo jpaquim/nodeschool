@@ -1,7 +1,7 @@
 {
   "name": "nodeschool",
   "version": "1.0.0",
-  "description": "",
+  "description": "The solutions to various workshoppers on nodeschool.io",
   "main": "index.js",
   "dependencies": {
     "after": "^0.8.2",
@@ -16,12 +16,13 @@
     "tar": "^3.1.9",
     "through2": "^2.0.3",
     "through2-map": "^3.0.0",
-    "trumpet": "^1.7.2"
+    "trumpet": "^1.7.2",
+    "websocket-stream": "^5.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "jpaquim",
   "license": "ISC",
   "repository": {
     "type": "git",
@@ -30,8 +31,5 @@
   "bugs": {
     "url": "https://github.com/jpaquim/nodeschool/issues"
   },
-  "homepage": "https://github.com/jpaquim/nodeschool#readme",
-  "devDependencies": {
-    "websocket-stream": "^5.0.1"
-  }
+  "homepage": "https://github.com/jpaquim/nodeschool#readme"
 }
